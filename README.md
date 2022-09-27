@@ -1,6 +1,3 @@
-# oembed
-# readme
-
 # **Application**
 
 퍼플 아이오 사전 과제 oEmbed 사이트 입니다.
@@ -35,8 +32,10 @@ Werkzeug==2.2.2
 ### **Build Setup**
 
 ```
+// 관련 패키지를 설치해주세요
 pip3 install -r requirements.txt
 
+// 실행해주세요
 python3 app.py
 ```
 
@@ -44,11 +43,15 @@ python3 app.py
 
 1. 메인 페이지로 이동하여 찾기 원하는 site url을 입력하세요
 
+![Untitled](https://user-images.githubusercontent.com/66009926/192475057-7ac4eb1f-c810-4619-9542-dfae4806372c.png)
 
-1. 입력 후, 오른쪽에 검색 버튼을 클릭하세요
+2. 입력 후, 오른쪽에 검색 버튼을 클릭하세요
 
+![Untitled 1](https://user-images.githubusercontent.com/66009926/192475080-1822af27-781e-4aac-a64b-877aaeb99d40.png)
 
-1. 결과가 modal 형식으로 출력됩니다.
+3. 결과가 modal 형식으로 출력됩니다.
+
+![Untitled 2](https://user-images.githubusercontent.com/66009926/192475105-bf42c11b-b659-4926-8502-fbb9457aa0f6.png)
 
 
 ### Demo Site
@@ -58,6 +61,7 @@ python3 app.py
 ```bash
 http://ec2-54-180-138-133.ap-northeast-2.compute.amazonaws.com:5000/
 ```
+
 
 ### 인스타그램 oEmbed 검색이 되지 않는 이유 & 해결 방법
 
